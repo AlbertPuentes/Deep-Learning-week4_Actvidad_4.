@@ -4,7 +4,7 @@ Semana 4 – Actividad 4: Aplicación de Métodos de Regularización en una Red 
 ## Análisis y Conclusiones 
 
 ** 1. Evidencia de Overfitting / Underfitting:**
-* 1.2En el **Modelo Base**, al observar las gráficas, es evidente un claro **overfitting** (sobreajuste). La pérdida de entrenamiento (train loss) se acerca a cero continuamente, mientras que la pérdida de validación (val loss) comienza a aumentar drásticamente después de ciertas épocas. Esto indica que el modelo está memorizando el ruido de los datos de entrenamiento y perdiendo capacidad predictiva en datos nuevos.
+* 1.2. En el **Modelo Base**, al observar las gráficas, se evidencia un **overfitting** (sobreajuste). La pérdida de entrenamiento (train loss) se acerca a cero continuamente, mientras que la pérdida de validación (val loss) comienza a aumentar de forma sostenida después de ciertas épocas. Esto indica que el modelo está memorizando el ruido de los datos de entrenamiento y perdiendo capacidad predictiva en datos nuevos.
 * No se observa un *underfitting* (subajuste) severo inicial porque la red es lo suficientemente compleja como para aprender los patrones rápidamente.
 
 **1.3. Efecto de la Regularización:**
