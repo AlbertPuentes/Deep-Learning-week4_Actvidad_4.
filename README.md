@@ -1,7 +1,7 @@
 # Deep-Learning-week4_Actvidad_4.
 Semana 4 – Actividad 4: Aplicación de Métodos de Regularización en una Red Neuronal
 
-## Análisis y Conclusiones (Criterios 5 y 6.3)
+## Análisis y Conclusiones 
 
 ** 1. Evidencia de Overfitting / Underfitting:**
 * 1.2En el **Modelo Base**, al observar las gráficas, es evidente un claro **overfitting** (sobreajuste). La pérdida de entrenamiento (train loss) se acerca a cero continuamente, mientras que la pérdida de validación (val loss) comienza a aumentar drásticamente después de ciertas épocas. Esto indica que el modelo está memorizando el ruido de los datos de entrenamiento y perdiendo capacidad predictiva en datos nuevos.
